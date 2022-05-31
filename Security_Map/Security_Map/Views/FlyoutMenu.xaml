@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Shell xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewsRaiz = "clr-namespace:Security_Map"
+             xmlns:viewsRegistros = "clr-namespace:Security_Map.Views.Registros"
+             xmlns:viewsPerfis = "clr-namespace:Security_Map.Views.Perfis"
+             xmlns:viewsContatos = "clr-namespace:Security_Map.Views.Contatos"
+             xmlns:viewsUsuarios = "clr-namespace:Security_Map.Views.Usuarios"
+             x:Class="Security_Map.Views.FlyoutMenu">
+
+    <Shell.FlyoutHeaderTemplate>
+        <DataTemplate>
+            <Grid BackgroundColor="Transparent">
+                <Image Aspect="AspectFill" HeightRequest="250" Source="etec_cps.gif"/>
+
+            </Grid>
+        </DataTemplate>
+    </Shell.FlyoutHeaderTemplate>
+
+    <FlyoutItem FlyoutDisplayOptions="AsMultipleItems">
+        
+        <ShellContent x:Name="PaginaInicial"
+                      Title="Mapa" 
+                      ContentTemplate="{DataTemplate viewsRaiz:MainPage}"/>
+
+        <ShellContent x:Name="PaginaPerfil"
+                      Title="Perfil" 
+                      ContentTemplate="{DataTemplate viewsPerfis:Perfil}"/>
+
+        <ShellContent x:Name="PaginaRegistros"
+                      Title="Registros" 
+                      ContentTemplate="{DataTemplate viewsRegistros:Registro}"/>
+
+        <ShellContent x:Name="PaginaContatos"
+                      Title="Contatos" 
+                      ContentTemplate="{DataTemplate viewsContatos:Contato}"/>
+
+        <Tab Title="Info" Route="Info">
+            <ShellContent Title="Sobre" Route="sobre" ContentTemplate="{DataTemplate viewsRaiz:AboutView}"/>
+
+            <ShellContent Title="Descrição" Route="desc" ContentTemplate="{DataTemplate viewsRaiz:DescriptionPage}"/>
+            
+        </Tab>
+        
+    </FlyoutItem>
+
+    <ShellContent Title="Sair" ContentTemplate="{DataTemplate viewsUsuarios:LoginView}"/>
+
+    <Shell.FlyoutFooter>
+        <Label x:Name="lblLogin" TextColor="Black" FontAttributes="Bold" HorizontalOptions="Center" />
+    </Shell.FlyoutFooter>
+
+
+
+</Shell>

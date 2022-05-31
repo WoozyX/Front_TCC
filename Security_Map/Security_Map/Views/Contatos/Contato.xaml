@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Security_Map.Views.Contatos.Contato">
+    <ContentPage.Content>
+        <StackLayout>
+            <ListView x:Name="listView" HasUnevenRows="True" ItemsSource="{Binding Contatos}" >
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Padding="10">
+                                <Label Text="{Binding Nome_Contato}" FontSize="18" FontAttributes="Bold"/>
+                                <Label Text="{Binding Tel_contato}" FontSize="14"/>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
