@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Security_Map.Views.Usuarios.LoginView" BackgroundColor="#333333"
+             NavigationPage.HasNavigationBar="False">
+    <StackLayout 
+        VerticalOptions="Center" 
+                 Padding="20"
+                 Spacing="15"
+                 
+        >
+        <Image Source="telainicial.jpg" WidthRequest="250" HeightRequest="250"
+               HorizontalOptions="Center">
+
+        </Image>
+
+        <Label Text="Usuário"
+               FontSize="Medium"
+               TextColor="White">
+
+        </Label>
+
+        <Entry  Text ="{Binding Login}"
+               Placeholder="Digite seu nome de usuário"
+               PlaceholderColor="Gray"
+               FontAttributes="Bold"
+               TextColor="White">
+            
+        
+
+
+        </Entry>
+
+        
+        
+        
+
+        <Label  Text="Senha"
+               FontSize="Medium"
+               TextColor="White">
+        </Label>
+
+        <Entry
+            IsPassword="True"
+            Text="{Binding Senha}"
+               Placeholder="Digite sua senha" 
+               PlaceholderColor="Gray"
+               FontAttributes="Bold"
+               TextColor="White">
+        </Entry>
+        <Button Text="Entrar" Command="{Binding EntrarCommand}"
+     
+                CornerRadius="50"
+                BackgroundColor="Gray"
+                BorderColor="Gainsboro"
+               BorderWidth="1"
+                ></Button>
+
+
+        <!--borderWidth define tamanho da borda de um botao-->
+        <Label HorizontalOptions="Center">
+            <Label.FormattedText>
+                <FormattedString>
+                    <Span Text="Não tem uma conta?" TextColor="Gray"></Span>
+                </FormattedString>
+                
+            </Label.FormattedText>
+            
+        </Label>
+
+        <Button Text="Registrar"
+                Clicked="Button_Clicked"
+                CornerRadius="50"
+                BackgroundColor="Transparent"
+                BorderColor="Transparent"
+                BorderWidth="1"
+                ></Button>
+
+        
+        
+
+    </StackLayout>
+</ContentPage>

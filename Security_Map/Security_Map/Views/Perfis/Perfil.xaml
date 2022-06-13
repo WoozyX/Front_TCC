@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Security_Map.Views.Perfis.Perfil" BackgroundColor="  #333333
+">
+    <StackLayout VerticalOptions="Center"
+                 Padding="10"
+                 Spacing="20"
+                 >
+        
+        <Frame 
+            Padding="80"
+            HorizontalOptions="CenterAndExpand"
+                VerticalOptions="StartAndExpand"
+            BackgroundColor="#333333" 
+            CornerRadius="20"> 
+            
+            
+            <Label
+                TextColor="White" FontSize="37"
+               FontAttributes="Bold"
+               
+            Text="Perfil"></Label>
+        </Frame>
+       
+        <Frame  
+              CornerRadius="10"
+              Padding="15"
+                
+              BackgroundColor="Gray">
+            <Label x:Name="nomeLogin" TextColor="White"  FontSize="18" FontAttributes="Bold"></Label>
+
+           
+         </Frame>
+
+        <Frame
+            CornerRadius="10"
+              Padding="15"
+                
+              BackgroundColor="Gray">
+            
+            <Label x:Name="emailLogin" TextColor="White" FontSize="18"  FontAttributes="Bold" ></Label>
+        </Frame>
+        
+
+
+        
+        
+        
+
+
+
+
+
+
+
+
+    </StackLayout>
+</ContentPage>
