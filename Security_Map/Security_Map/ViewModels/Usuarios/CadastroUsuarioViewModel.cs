@@ -19,7 +19,7 @@ namespace Security_Map.ViewModels.Usuarios
         public CadastroUsuarioViewModel()
         {
                 string token = Application.Current.Properties["UsuarioToken"].ToString();
-                uService = new UsuarioService(token);
+                uService = new UsuarioService();
 
             SalvarCommand = new Command(async () => await SalvarUsuario());
             CancelarCommand = new Command(async  =>  CancelarCadastro());
@@ -123,17 +123,26 @@ namespace Security_Map.ViewModels.Usuarios
         {
             try
             {
-                Usuario model = new Usuario();
+                int sexoIndex = int.Parse(Sexo_Cliente);
+                if(sexoIndex > 0)
                 {
-                    Username = this.username;
-                    PasswordString = this.passwordString;
-                    Token = this.token;
-                    Imei_Cliente = this.imei_Cliente;
-                    Email_Cliente = this.email_Cliente;
-                    Sexo_Cliente = this.sexo_Cliente;
-                    Telefone_Cliente = this.telefone_Cliente;
-                    Nascimento_Cliente = this.Nascimento_Cliente;
-                    Id = this.id;
+                    this.Sexo_Cliente = "Feminino";
+                }
+                else
+                {
+                    this.Sexo_Cliente = "Masculino";
+                }
+                Usuario model = new Usuario()
+                {
+                    Username = this.Username,
+                    PasswordString = this.PasswordString,
+                    Token = this.Token,
+                    Imei_Cliente = this.Imei_Cliente,
+                    Email_Cliente = this.Email_Cliente,
+                    Sexo_Cliente = this.Sexo_Cliente,
+                    Telefone_Cliente = this.Telefone_Cliente,
+                    Nascimento_Cliente = this.Nascimento_Cliente,
+                    Id = this.Id
 
 
                     /*private string token;
@@ -149,7 +158,7 @@ namespace Security_Map.ViewModels.Usuarios
 
                 await Application.Current.MainPage.DisplayAlert("Mensagem", "Dados salvos com sucesso!", "Ok");
 
-                await Shell.Current.GoToAsync("..");
+                
 
                 
             }
@@ -163,7 +172,7 @@ namespace Security_Map.ViewModels.Usuarios
 
         private async void CancelarCadastro()
         {
-            await Shell.Current.GoToAsync("...");
+            Application.Current.MainPage = new LoginView();
         }
 
 

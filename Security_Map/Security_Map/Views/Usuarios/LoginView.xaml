@@ -9,7 +9,7 @@
                  Spacing="15"
                  
         >
-        <Image Source="telainicial.jpg" WidthRequest="250" HeightRequest="250"
+        <Image Source="logoFlyout.png" WidthRequest="250" HeightRequest="250"
                HorizontalOptions="Center">
 
         </Image>
@@ -21,11 +21,12 @@
         </Label>
 
         <Entry  Text ="{Binding Login}"
-               Placeholder="Digite seu nome de usuário"
-               PlaceholderColor="Gray"
-               FontAttributes="Bold"
-               TextColor="White">
-            
+                Placeholder="Digite seu nome de usuário"
+                PlaceholderColor="Gray"
+                FontAttributes="Bold"
+                TextColor="White"
+                >
+                
         
 
 
@@ -49,11 +50,12 @@
                TextColor="White">
         </Entry>
         <Button Text="Entrar" Command="{Binding EntrarCommand}"
-     
-                CornerRadius="50"
-                BackgroundColor="Gray"
-                BorderColor="Gainsboro"
-               BorderWidth="1"
+                TextColor="White"
+                BackgroundColor="#FD2448"
+                CornerRadius="25"
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="Center"
+                 Margin="75,0"
                 ></Button>
 
 
@@ -69,15 +71,13 @@
         </Label>
 
         <Button Text="Registrar"
+                TextColor="White"
                 Clicked="Button_Clicked"
                 CornerRadius="50"
                 BackgroundColor="Transparent"
                 BorderColor="Transparent"
                 BorderWidth="1"
                 ></Button>
-
-        
-        
 
     </StackLayout>
 </ContentPage>

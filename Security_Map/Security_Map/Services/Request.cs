@@ -29,11 +29,16 @@ namespace Security_Map.Services
         public async Task<TResult> PostAsync<TResult>(string uri, TResult data, string token)
         {
             HttpClient httpClient = new HttpClient();
-            httpClient.DefaultRequestHeaders.Authorization
-            = new AuthenticationHeaderValue("Bearer", token);
-            var content = new StringContent(JsonConvert.SerializeObject(data)); content.Headers.ContentType = new MediaTypeHeaderValue("application/json"); HttpResponseMessage response = await httpClient.PostAsync(uri, content);  /*string serialized = await response.Content.ReadAsStringAsync();  TResult result = await Task.Run(() =>
- JsonConvert.DeserializeObject<TResult>(serialized));*/
+            //httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
+            
+            var content = new StringContent(JsonConvert.SerializeObject(data));
+            content.Headers.ContentType = new MediaTypeHeaderValue("application/json");
+            HttpResponseMessage response = await httpClient.PostAsync(uri, content);
 
+            string serialized = await response.Content.ReadAsStringAsync();
+
+            /*string serialized = await response.Content.ReadAsStringAsync();  TResult result = await Task.Run(() =>
+            JsonConvert.DeserializeObject<TResult>(serialized));*/
             return data;
         }
         public async Task<TResult> GetAsync<TResult>(string uri, string token)

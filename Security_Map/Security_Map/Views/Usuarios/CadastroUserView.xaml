@@ -7,18 +7,116 @@
     <ContentPage.Content>
         <ScrollView>
             <StackLayout Spacing="3" Padding="15">
-                <Label Text="Nome de Usuário:" FontSize="Medium" />
-                <Entry Text="{Binding Username}" FontSize="Medium" />
+                <Label Text="Nome de Usuário" TextColor="#FD2448"
+                               FontAttributes="Bold"
+                               FontSize="Medium"
+                               HorizontalTextAlignment="Start" />
+                
+                
+                <Entry
+                    TextColor="#FFF"
+                    FontAttributes="Bold"
+                    FontSize="Subtitle"
+                    HorizontalTextAlignment="Start"
+                    Text="{Binding Username}" />
 
-                <Label Text="Senha:" FontSize="Medium" />
-                <Entry Text="{Binding PasswordString}" FontSize="Medium" />
+                <Label Text="Senha" 
+                       TextColor="#FD2448"
+                       FontAttributes="Bold"
+                       HorizontalTextAlignment="Start" FontSize="Medium" />
+                
+                
+                <Entry 
+                    TextColor="#FFF"
+                    FontAttributes="Bold"
+                    FontSize="Subtitle"
+                    HorizontalTextAlignment="Start"
+                    Text="{Binding PasswordString}"  />
+
+                <Label Text="E-mail"
+                       TextColor="#FD2448"
+                       FontAttributes="Bold"
+                       HorizontalTextAlignment="Start"
+                       FontSize="Medium" />
+                
+                <Entry 
+                    TextColor="#FFF"
+                    FontAttributes="Bold"
+                    FontSize="Subtitle"
+                    HorizontalTextAlignment="Start"
+                    Text="{Binding Email_Cliente}"  />
+
+                <Label 
+                    TextColor="#FD2448"
+                    FontAttributes="Bold"
+                    FontSize="Medium"
+                    HorizontalTextAlignment="Start"
+                    Text="Sexo"  />
+                
+                
+                
+                <Picker 
+                    TitleColor="#FFF"
+                    TextColor="#FFF"
+                    FontAttributes="Bold"
+                    FontSize="Subtitle"
+                    HorizontalTextAlignment="Start"
+                    SelectedIndex="{Binding Sexo_Cliente}" Title="Defina o sexo">
+                    
+                    <Picker.Items>
+                        <x:String>Masculino</x:String>
+                        <x:String>Feminino</x:String>
+                    </Picker.Items>
+                </Picker>
+
+                <Label Text="Telefone:" 
+                       TextColor="#FD2448"
+                       FontAttributes="Bold"
+                       HorizontalTextAlignment="Start"
+                       FontSize="Medium" />
+                
+                
+                <Entry 
+                    TextColor="#FFF"
+                    FontAttributes="Bold"
+                    FontSize="Subtitle"
+                    HorizontalTextAlignment="Start"
+                    Text="{Binding Telefone_Cliente}"   Keyboard="Numeric"/>
+
+                <Label Text="Data de Nascimento"
+                       TextColor="#FD2448"
+                       FontAttributes="Bold"
+                       HorizontalTextAlignment="Start"
+                       FontSize="Medium" />
+
+                <DatePicker Format="dd/MM/yyyy"
+                            TextColor="#FFF"
+                               FontAttributes="Bold"
+                               FontSize="Medium"
+                               
+                            
+                            Date="{Binding Nascimento_Cliente}"
+                            />
+
 
                 <StackLayout Orientation="Horizontal">
-                    <Button Text="Salvar" Command="{Binding SalvarCommand}"
-                            HorizontalOptions="FillAndExpand"></Button>
+                    <Button Text="Salvar"
+                            BackgroundColor="#FD2448"
+                            CornerRadius="25"
+                            HorizontalOptions="FillAndExpand"
+                            VerticalOptions="Center"
+                            Margin="20,50"
+                            Command="{Binding SalvarCommand}"
+                            ></Button>
 
-                    <Button Text="Cancelar" Command="{Binding CancelarCommand}"
-                            HorizontalOptions="FillAndExpand"></Button>
+                    <!--<Button Text="Cancelar" 
+                            BackgroundColor="#FD2448"
+                            CornerRadius="25"
+                            HorizontalOptions="FillAndExpand"
+                            VerticalOptions="Center"
+                            Margin="15"
+                            Command="{Binding CancelarCommand}"
+                            ></Button>-->
 
 
                 </StackLayout>

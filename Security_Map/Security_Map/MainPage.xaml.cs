@@ -1,4 +1,5 @@
-﻿using Security_Map.ViewModels.Usuarios;
+﻿using Security_Map.ViewModels.Registros;
+using Security_Map.ViewModels.Usuarios;
 using Security_Map.Views.Registros;
 using System;
 using System.Collections.Generic;
@@ -13,14 +14,18 @@ namespace Security_Map
 {
     public partial class MainPage : ContentPage
     {
+        CadastroRegistroViewModel registroViewModel;
         LocalizacaoViewModel viewModel;
         public static Map MeuMapa;  //Map _MeuMapa;
+        public string latitudePoint;
+        public string longitudePoint;
         public MainPage()
         {
             MeuMapa = new Map();
 
             InitializeComponent();
             //_MeuMapa = MeuMapa;
+            registroViewModel = new CadastroRegistroViewModel(latitudePoint, longitudePoint);
             viewModel = new LocalizacaoViewModel();
             BindingContext = viewModel;
 
@@ -33,16 +38,13 @@ namespace Security_Map
         private void Marcar_Localizacao(object sender, MapClickedEventArgs e)
         {
             viewModel.Marcar_Localizacao(e, btnOcorrencia);
-            
-            //TODO: Método na viewModel
-            //viewModel.
-            
-
+            latitudePoint = e.Point.Latitude.ToString();
+            longitudePoint = e.Point.Longitude.ToString();
         }
 
         private void AbrirTelaOcorrencia(object sender, EventArgs e)
         {
-            Application.Current.MainPage = new RegistroOcorrencia();
+            Application.Current.MainPage = new RegistroOcorrencia(latitudePoint, longitudePoint);
         }
     }
 }

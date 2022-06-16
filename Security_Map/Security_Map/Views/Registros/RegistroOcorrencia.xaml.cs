@@ -14,11 +14,11 @@ namespace Security_Map.Views.Registros
     public partial class RegistroOcorrencia : ContentPage
     {
         private CadastroRegistroViewModel cadViewModel;
-        public RegistroOcorrencia()
+        public RegistroOcorrencia(string latitudePoint, string longitudePoint)
         {
             InitializeComponent();
 
-            cadViewModel = new CadastroRegistroViewModel();
+            cadViewModel = new CadastroRegistroViewModel(latitudePoint, longitudePoint);
             BindingContext = cadViewModel;
             Title = "Nova Ocorrência";
         }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Front_TCC-desenvolvimento\\Security_Map\\Security_Map\\Security_Map.csproj": {}
+    "C:\\Front_TCC-desenvolvimento\\Front_TCC-desenvolvimento\\Security_Map\\Security_Map\\Security_Map.csproj": {}
   },
   "projects": {
-    "C:\\Front_TCC-desenvolvimento\\Security_Map\\Security_Map\\Security_Map.csproj": {
+    "C:\\Front_TCC-desenvolvimento\\Front_TCC-desenvolvimento\\Security_Map\\Security_Map\\Security_Map.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Front_TCC-desenvolvimento\\Security_Map\\Security_Map\\Security_Map.csproj",
+        "projectUniqueName": "C:\\Front_TCC-desenvolvimento\\Front_TCC-desenvolvimento\\Security_Map\\Security_Map\\Security_Map.csproj",
         "projectName": "Security_Map",
-        "projectPath": "C:\\Front_TCC-desenvolvimento\\Security_Map\\Security_Map\\Security_Map.csproj",
+        "projectPath": "C:\\Front_TCC-desenvolvimento\\Front_TCC-desenvolvimento\\Security_Map\\Security_Map\\Security_Map.csproj",
         "packagesPath": "C:\\Users\\rafam\\.nuget\\packages\\",
-        "outputPath": "C:\\Front_TCC-desenvolvimento\\Security_Map\\Security_Map\\obj\\",
+        "outputPath": "C:\\Front_TCC-desenvolvimento\\Front_TCC-desenvolvimento\\Security_Map\\Security_Map\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\rafam\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -65,6 +65,10 @@
             "Xamarin.Essentials": {
               "target": "Package",
               "version": "[1.7.3, )"
+            },
+            "Xamarin.FFImageLoading.Svg.Forms": {
+              "target": "Package",
+              "version": "[2.4.11.982, )"
             },
             "Xamarin.Forms": {
               "target": "Package",

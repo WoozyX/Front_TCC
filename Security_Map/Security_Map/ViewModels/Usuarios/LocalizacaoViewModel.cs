@@ -36,7 +36,7 @@ namespace Security_Map.ViewModels.Usuarios
             try
             {
                 var status = await CrossPermissions.Current.CheckPermissionStatusAsync<LocationPermission>();
-
+                var location = await Geolocation.GetLastKnownLocationAsync();
                 if (status != PermissionStatus.Granted)
                 {
                     if (await CrossPermissions.Current.ShouldShowRequestPermissionRationaleAsync(Permission.Location))
@@ -49,6 +49,8 @@ namespace Security_Map.ViewModels.Usuarios
                 {
                     MeuMapa.MyLocationEnabled = true;
                     MeuMapa.UiSettings.MyLocationButtonEnabled = true;
+                    Position position = new Position(location.Latitude, location.Longitude);
+                    MeuMapa.MoveToRegion(MapSpan.FromCenterAndRadius(position, Distance.FromMeters(1000)));
                 }
                 else if (status != PermissionStatus.Unknown)
                     throw new Exception("Localização negada");
@@ -56,15 +58,7 @@ namespace Security_Map.ViewModels.Usuarios
 
                 
 
-                Pin pinCentro = new Pin()
-                {
-                    Type = PinType.SavedPin,
-                    Label = "São Paulo",
-                    Position = new Position(-23.5504685, -46.6306803),
-
-                };
-                MeuMapa.Pins.Add(pinCentro);
-                MeuMapa.MoveToRegion(MapSpan.FromCenterAndRadius(pinCentro.Position, Distance.FromMeters(1000)));
+                
 
             }
             catch (Exception ex)
@@ -211,8 +205,7 @@ namespace Security_Map.ViewModels.Usuarios
                         Type = PinType.Place,
                         Label = "Ocorrência",
                         Address = localizacaoAproxInfo.Thoroughfare,
-                        Position = parametros.Point,
-                        Tag = "IdEtec",
+                        Position = parametros.Point
                     };
                     MeuMapa.MoveToRegion(MapSpan.FromCenterAndRadius(pinOcorrencia.Position, Distance.FromMeters(100)));
                     MeuMapa.Pins.Add(pinOcorrencia);

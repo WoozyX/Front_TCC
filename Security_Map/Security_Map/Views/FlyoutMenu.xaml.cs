@@ -16,8 +16,7 @@ namespace Security_Map.Views
         {
             InitializeComponent();
 
-            if (Application.Current.Properties.ContainsKey("UsuarioUsername"))
-                lblLogin.Text = "Login: " + Application.Current.Properties["UsuarioUsername"].ToString();
+            if (Application.Current.Properties.ContainsKey("UsuarioUsername"));
         }
 
         private void Shell_Focused(object sender, FocusEventArgs e)

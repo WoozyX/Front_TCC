@@ -1,4 +1,5 @@
-﻿using Security_Map.ViewModels.Usuarios;
+﻿using FFImageLoading.Svg.Forms;
+using Security_Map.ViewModels.Usuarios;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,6 +15,7 @@ namespace Security_Map.Views.Usuarios
     public partial class LoginView : ContentPage
     {
         UsuarioViewModel usuarioViewModel;
+
         public LoginView()
         {
             InitializeComponent();

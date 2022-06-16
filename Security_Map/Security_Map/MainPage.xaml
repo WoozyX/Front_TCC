@@ -18,7 +18,7 @@
             HorizontalOptions="Center"
               VerticalOptions="EndAndExpand">
             <Button 
-                 BackgroundColor="Red"
+                 BackgroundColor="#FD2448"
                     Text="Ocorrência"
                     TextColor="White"
                     FontSize="Small"

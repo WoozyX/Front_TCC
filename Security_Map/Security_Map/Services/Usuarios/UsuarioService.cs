@@ -13,20 +13,15 @@ namespace Security_Map.Services.Usuarios
         private readonly Request _request;
         private const string ApiUrlBase = "http://SecMap.somee.com/tcc/Cliente";
 
-        private string _token;
-
-        public UsuarioService(string token)
+        public UsuarioService()
         {
             _request = new Request();
-            _token = token; 
         }
 
         public async Task<Usuario> PostLoginUsuarioAsync(Usuario u)
         {
             string urlComplementar = "/Autenticar";
             u.Token = await _request.PostReturnStringAsync(ApiUrlBase + urlComplementar, u);
-            ObservableCollection<Models.Usuario> listaContatos = await _request.GetAsync
-                <ObservableCollection<Models.Usuario>>(ApiUrlBase + urlComplementar, _token);
             return u;
         }
 
