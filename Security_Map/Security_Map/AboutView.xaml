@@ -1,12 +1,44 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Security_Map.AboutView">
+             x:Class="Security_Map.AboutView" BackgroundColor="#333333">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Informações"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label HorizontalOptions="CenterAndExpand"
+                   Text="Security Map"
+                   Padding="20"
+                   FontSize="30"
+                   TextColor="#FD2448">
+                
+                
+            </Label>
+
+            <Frame  
+            
+            CornerRadius="10"
+            Padding="15"
+            BorderColor="#FD2448"
+            BackgroundColor="#333333">
+                <Label TextColor="White" 
+                  Text="Security Map que teve inicio aproximadamente em Junho de 2021, tem como objetivo manter o usúario mais seguro, onde o aplicativo registra e mapeia áreas perigosas do Município São Paulo."
+                  FontSize="20" ></Label>
+
+
+            </Frame>
+            <Frame  
+            
+            CornerRadius="10"
+            Padding="15"
+            BorderColor="#FD2448"
+            BackgroundColor="#333333">
+                <Label TextColor="White" 
+                 Text="Desenvolvedores: Johann, Cristhian, Leonardo, Diego e Raphael"
+                  FontSize="20" ></Label>
+
+
+            </Frame>
+
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

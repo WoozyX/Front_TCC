@@ -24,6 +24,18 @@ namespace Security_Map.Views.Contatos
             
         }
 
-        
+        private async void Button_Clicked(object sender, EventArgs e)
+        {
+            try
+            {
+                await Launcher.OpenAsync("tel: ");
+            }
+            catch (Exception ex)
+            {
+                await DisplayAlert("Ops, Erro", ex.Message, "Ok");
+                Console.WriteLine(ex.Message);
+                Console.WriteLine(ex.StackTrace);
+            }
+        }
     }
 }

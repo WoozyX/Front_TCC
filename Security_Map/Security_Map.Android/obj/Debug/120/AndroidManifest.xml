@@ -15,10 +15,10 @@
   <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
   <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" />
   <uses-permission android:name="android.permission.INTERNET" />
-  <application android:label="Security_Map.Android" android:theme="@style/MainTheme" android:usesCleartextTraffic="true" android:name="android.app.Application" android:allowBackup="true" android:icon="@mipmap/icon2" android:debuggable="true" android:extractNativeLibs="true">
+  <application android:label="Security_Map.Android" android:theme="@style/MainTheme" android:usesCleartextTraffic="true" android:name="android.app.Application" android:allowBackup="true" android:icon="@mipmap/icones" android:debuggable="true" android:extractNativeLibs="true">
     <uses-library android:name="org.apache.http.legacy" android:required="false"></uses-library>
     <meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyBLYEnbgklO2LLpMHFnUSOAzCRuFLt2Yd4"></meta-data>
-    <activity android:configChanges="orientation|smallestScreenSize|screenLayout|screenSize|uiMode" android:icon="@mipmap/icon2" android:label="Security Map" android:theme="@style/MainTheme" android:name="crc64ea936bdcade37bed.MainActivity" />
+    <activity android:configChanges="orientation|smallestScreenSize|screenLayout|screenSize|uiMode" android:icon="@mipmap/icones" android:label="Security Map" android:theme="@style/MainTheme" android:name="crc64ea936bdcade37bed.MainActivity" />
     <activity android:label="Security Map" android:noHistory="true" android:theme="@style/MyTheme.Splash" android:name="crc64ea936bdcade37bed.SplashActivity" android:exported="true">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />

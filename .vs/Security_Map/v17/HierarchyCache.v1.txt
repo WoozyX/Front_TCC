@@ -1,0 +1,235 @@
+﻿++Solução 'Security_Map' ‎(2 de 2 projetos)
+i:{00000000-0000-0000-0000-000000000000}:Security_Map.sln
+++Security_Map.Android
+i:{00000000-0000-0000-0000-000000000000}:Security_Map.Android
+++Properties
+i:{272de123-50f3-4347-b047-2a7f44d82806}:c:\users\crist\onedrive\área de trabalho\tc\front_tcc-desenvolvimento\security_map\security_map.android\properties\
+++AndroidManifest.xml
+i:{272de123-50f3-4347-b047-2a7f44d82806}:c:\users\crist\onedrive\área de trabalho\tc\front_tcc-desenvolvimento\security_map\security_map.android\properties\androidmanifest.xml
+++AssemblyInfo.cs
+i:{272de123-50f3-4347-b047-2a7f44d82806}:c:\users\crist\onedrive\área de trabalho\tc\front_tcc-desenvolvimento\security_map\security_map.android\properties\assemblyinfo.cs
+i:{bd264ed5-e11a-4c8c-8c30-a49beb3cb918}:c:\users\crist\onedrive\área de trabalho\tc\front_tcc-desenvolvimento\security_map\security_map\assemblyinfo.cs
+++Referências
+i:{272de123-50f3-4347-b047-2a7f44d82806}:
+++Mono.Android
+i:{272de123-50f3-4347-b047-2a7f44d82806}:
+++Security_Map
+i:{272de123-50f3-4347-b047-2a7f44d82806}:
+i:{00000000-0000-0000-0000-000000000000}:Security_Map
+++System
+i:{272de123-50f3-4347-b047-2a7f44d82806}:
+++System.Core
+i:{272de123-50f3-4347-b047-2a7f44d82806}:
+++System.Numerics
+i:{272de123-50f3-4347-b047-2a7f44d82806}:
+++System.Numerics.Vectors
+i:{272de123-50f3-4347-b047-2a7f44d82806}:
+++System.Xml
+i:{272de123-50f3-4347-b047-2a7f44d82806}:
+++System.Xml.Linq
+i:{272de123-50f3-4347-b047-2a7f44d82806}:
+++Xamarin.Essentials
+i:{272de123-50f3-4347-b047-2a7f44d82806}:
+++Xamarin.Forms
+i:{272de123-50f3-4347-b047-2a7f44d82806}:
+++Assets
+i:{272de123-50f3-4347-b047-2a7f44d82806}:c:\users\crist\onedrive\área de trabalho\tc\front_tcc-desenvolvimento\security_map\security_map.android\assets\
+++Resources
+i:{272de123-50f3-4347-b047-2a7f44d82806}:c:\users\crist\onedrive\área de trabalho\tc\front_tcc-desenvolvimento\security_map\security_map.android\resources\
+++drawable
+i:{272de123-50f3-4347-b047-2a7f44d82806}:c:\users\crist\onedrive\área de trabalho\tc\front_tcc-desenvolvimento\security_map\security_map.android\resources\drawable\
+++mipmap-anydpi-v26
+i:{272de123-50f3-4347-b047-2a7f44d82806}:c:\users\crist\onedrive\área de trabalho\tc\front_tcc-desenvolvimento\security_map\security_map.android\resources\mipmap-anydpi-v26\
+++mipmap-hdpi
+i:{272de123-50f3-4347-b047-2a7f44d82806}:c:\users\crist\onedrive\área de trabalho\tc\front_tcc-desenvolvimento\security_map\security_map.android\resources\mipmap-hdpi\
+++mipmap-mdpi
+i:{272de123-50f3-4347-b047-2a7f44d82806}:c:\users\crist\onedrive\área de trabalho\tc\front_tcc-desenvolvimento\security_map\security_map.android\resources\mipmap-mdpi\
+++mipmap-xhdpi
+i:{272de123-50f3-4347-b047-2a7f44d82806}:c:\users\crist\onedrive\área de trabalho\tc\front_tcc-desenvolvimento\security_map\security_map.android\resources\mipmap-xhdpi\
+++mipmap-xxhdpi
+i:{272de123-50f3-4347-b047-2a7f44d82806}:c:\users\crist\onedrive\área de trabalho\tc\front_tcc-desenvolvimento\security_map\security_map.android\resources\mipmap-xxhdpi\
+++mipmap-xxxhdpi
+i:{272de123-50f3-4347-b047-2a7f44d82806}:c:\users\crist\onedrive\área de trabalho\tc\front_tcc-desenvolvimento\security_map\security_map.android\resources\mipmap-xxxhdpi\
+++values
+i:{272de123-50f3-4347-b047-2a7f44d82806}:c:\users\crist\onedrive\área de trabalho\tc\front_tcc-desenvolvimento\security_map\security_map.android\resources\values\
+++AboutResources.txt
+i:{272de123-50f3-4347-b047-2a7f44d82806}:c:\users\crist\onedrive\área de trabalho\tc\front_tcc-desenvolvimento\security_map\security_map.android\resources\aboutresources.txt
+++Resource.designer.cs
+i:{272de123-50f3-4347-b047-2a7f44d82806}:c:\users\crist\onedrive\área de trabalho\tc\front_tcc-desenvolvimento\security_map\security_map.android\resources\resource.designer.cs
+++MainActivity.cs
+i:{272de123-50f3-4347-b047-2a7f44d82806}:c:\users\crist\onedrive\área de trabalho\tc\front_tcc-desenvolvimento\security_map\security_map.android\mainactivity.cs
+++SplashActivity.cs
+i:{272de123-50f3-4347-b047-2a7f44d82806}:c:\users\crist\onedrive\área de trabalho\tc\front_tcc-desenvolvimento\security_map\security_map.android\splashactivity.cs
+++AboutAssets.txt
+i:{272de123-50f3-4347-b047-2a7f44d82806}:c:\users\crist\onedrive\área de trabalho\tc\front_tcc-desenvolvimento\security_map\security_map.android\assets\aboutassets.txt
+++contato.png
+i:{272de123-50f3-4347-b047-2a7f44d82806}:c:\users\crist\onedrive\área de trabalho\tc\front_tcc-desenvolvimento\security_map\security_map.android\resources\drawable\contato.png
+++etec_cps.gif
+i:{272de123-50f3-4347-b047-2a7f44d82806}:c:\users\crist\onedrive\área de trabalho\tc\front_tcc-desenvolvimento\security_map\security_map.android\resources\drawable\etec_cps.gif
+++logoFlyout.png
+i:{272de123-50f3-4347-b047-2a7f44d82806}:c:\users\crist\onedrive\área de trabalho\tc\front_tcc-desenvolvimento\security_map\security_map.android\resources\drawable\logoflyout.png
+++logogoole.png
+i:{272de123-50f3-4347-b047-2a7f44d82806}:c:\users\crist\onedrive\área de trabalho\tc\front_tcc-desenvolvimento\security_map\security_map.android\resources\drawable\logogoole.png
+++logout.png
+i:{272de123-50f3-4347-b047-2a7f44d82806}:c:\users\crist\onedrive\área de trabalho\tc\front_tcc-desenvolvimento\security_map\security_map.android\resources\drawable\logout.png
+++mapa.png
+i:{272de123-50f3-4347-b047-2a7f44d82806}:c:\users\crist\onedrive\área de trabalho\tc\front_tcc-desenvolvimento\security_map\security_map.android\resources\drawable\mapa.png
+++perfil.png
+i:{272de123-50f3-4347-b047-2a7f44d82806}:c:\users\crist\onedrive\área de trabalho\tc\front_tcc-desenvolvimento\security_map\security_map.android\resources\drawable\perfil.png
+++question.png
+i:{272de123-50f3-4347-b047-2a7f44d82806}:c:\users\crist\onedrive\área de trabalho\tc\front_tcc-desenvolvimento\security_map\security_map.android\resources\drawable\question.png
+++registros.png
+i:{272de123-50f3-4347-b047-2a7f44d82806}:c:\users\crist\onedrive\área de trabalho\tc\front_tcc-desenvolvimento\security_map\security_map.android\resources\drawable\registros.png
+++sobre.png
+i:{272de123-50f3-4347-b047-2a7f44d82806}:c:\users\crist\onedrive\área de trabalho\tc\front_tcc-desenvolvimento\security_map\security_map.android\resources\drawable\sobre.png
+++telainicial.jpg
+i:{272de123-50f3-4347-b047-2a7f44d82806}:c:\users\crist\onedrive\área de trabalho\tc\front_tcc-desenvolvimento\security_map\security_map.android\resources\drawable\telainicial.jpg
+++teste.jpg
+i:{272de123-50f3-4347-b047-2a7f44d82806}:c:\users\crist\onedrive\área de trabalho\tc\front_tcc-desenvolvimento\security_map\security_map.android\resources\drawable\teste.jpg
+++icon.xml
+i:{272de123-50f3-4347-b047-2a7f44d82806}:c:\users\crist\onedrive\área de trabalho\tc\front_tcc-desenvolvimento\security_map\security_map.android\resources\mipmap-anydpi-v26\icon.xml
+++icon_round.xml
+i:{272de123-50f3-4347-b047-2a7f44d82806}:c:\users\crist\onedrive\área de trabalho\tc\front_tcc-desenvolvimento\security_map\security_map.android\resources\mipmap-anydpi-v26\icon_round.xml
+++icon.png
+i:{272de123-50f3-4347-b047-2a7f44d82806}:c:\users\crist\onedrive\área de trabalho\tc\front_tcc-desenvolvimento\security_map\security_map.android\resources\mipmap-hdpi\icon.png
+i:{272de123-50f3-4347-b047-2a7f44d82806}:c:\users\crist\onedrive\área de trabalho\tc\front_tcc-desenvolvimento\security_map\security_map.android\resources\mipmap-mdpi\icon.png
+i:{272de123-50f3-4347-b047-2a7f44d82806}:c:\users\crist\onedrive\área de trabalho\tc\front_tcc-desenvolvimento\security_map\security_map.android\resources\mipmap-xhdpi\icon.png
+i:{272de123-50f3-4347-b047-2a7f44d82806}:c:\users\crist\onedrive\área de trabalho\tc\front_tcc-desenvolvimento\security_map\security_map.android\resources\mipmap-xxhdpi\icon.png
+i:{272de123-50f3-4347-b047-2a7f44d82806}:c:\users\crist\onedrive\área de trabalho\tc\front_tcc-desenvolvimento\security_map\security_map.android\resources\mipmap-xxxhdpi\icon.png
+++icon2.png
+i:{272de123-50f3-4347-b047-2a7f44d82806}:c:\users\crist\onedrive\área de trabalho\tc\front_tcc-desenvolvimento\security_map\security_map.android\resources\mipmap-hdpi\icon2.png
+++launcher_foreground.png
+i:{272de123-50f3-4347-b047-2a7f44d82806}:c:\users\crist\onedrive\área de trabalho\tc\front_tcc-desenvolvimento\security_map\security_map.android\resources\mipmap-hdpi\launcher_foreground.png
+i:{272de123-50f3-4347-b047-2a7f44d82806}:c:\users\crist\onedrive\área de trabalho\tc\front_tcc-desenvolvimento\security_map\security_map.android\resources\mipmap-mdpi\launcher_foreground.png
+i:{272de123-50f3-4347-b047-2a7f44d82806}:c:\users\crist\onedrive\área de trabalho\tc\front_tcc-desenvolvimento\security_map\security_map.android\resources\mipmap-xhdpi\launcher_foreground.png
+i:{272de123-50f3-4347-b047-2a7f44d82806}:c:\users\crist\onedrive\área de trabalho\tc\front_tcc-desenvolvimento\security_map\security_map.android\resources\mipmap-xxhdpi\launcher_foreground.png
+i:{272de123-50f3-4347-b047-2a7f44d82806}:c:\users\crist\onedrive\área de trabalho\tc\front_tcc-desenvolvimento\security_map\security_map.android\resources\mipmap-xxxhdpi\launcher_foreground.png
+++colors.xml
+i:{272de123-50f3-4347-b047-2a7f44d82806}:c:\users\crist\onedrive\área de trabalho\tc\front_tcc-desenvolvimento\security_map\security_map.android\resources\values\colors.xml
+++styles.xml
+i:{272de123-50f3-4347-b047-2a7f44d82806}:c:\users\crist\onedrive\área de trabalho\tc\front_tcc-desenvolvimento\security_map\security_map.android\resources\values\styles.xml
+++Dependências
+i:{bd264ed5-e11a-4c8c-8c30-a49beb3cb918}:>292
+++Models
+i:{bd264ed5-e11a-4c8c-8c30-a49beb3cb918}:c:\users\crist\onedrive\área de trabalho\tc\front_tcc-desenvolvimento\security_map\security_map\models\
+++Contato.cs
+i:{bd264ed5-e11a-4c8c-8c30-a49beb3cb918}:c:\users\crist\onedrive\área de trabalho\tc\front_tcc-desenvolvimento\security_map\security_map\models\contato.cs
+++Registro.cs
+i:{bd264ed5-e11a-4c8c-8c30-a49beb3cb918}:c:\users\crist\onedrive\área de trabalho\tc\front_tcc-desenvolvimento\security_map\security_map\models\registro.cs
+++TipoOcorrenciaEnum.cs
+i:{bd264ed5-e11a-4c8c-8c30-a49beb3cb918}:c:\users\crist\onedrive\área de trabalho\tc\front_tcc-desenvolvimento\security_map\security_map\models\tipoocorrenciaenum.cs
+++TipoOcorrencias.cs
+i:{bd264ed5-e11a-4c8c-8c30-a49beb3cb918}:c:\users\crist\onedrive\área de trabalho\tc\front_tcc-desenvolvimento\security_map\security_map\models\tipoocorrencias.cs
+++Usuario.cs
+i:{bd264ed5-e11a-4c8c-8c30-a49beb3cb918}:c:\users\crist\onedrive\área de trabalho\tc\front_tcc-desenvolvimento\security_map\security_map\models\usuario.cs
+++Services
+i:{bd264ed5-e11a-4c8c-8c30-a49beb3cb918}:c:\users\crist\onedrive\área de trabalho\tc\front_tcc-desenvolvimento\security_map\security_map\services\
+++ViewModels
+i:{bd264ed5-e11a-4c8c-8c30-a49beb3cb918}:c:\users\crist\onedrive\área de trabalho\tc\front_tcc-desenvolvimento\security_map\security_map\viewmodels\
+++Views
+i:{bd264ed5-e11a-4c8c-8c30-a49beb3cb918}:c:\users\crist\onedrive\área de trabalho\tc\front_tcc-desenvolvimento\security_map\security_map\views\
+++AboutView.xaml
+i:{bd264ed5-e11a-4c8c-8c30-a49beb3cb918}:c:\users\crist\onedrive\área de trabalho\tc\front_tcc-desenvolvimento\security_map\security_map\aboutview.xaml
+++App.xaml
+i:{bd264ed5-e11a-4c8c-8c30-a49beb3cb918}:c:\users\crist\onedrive\área de trabalho\tc\front_tcc-desenvolvimento\security_map\security_map\app.xaml
+++App.xaml.cs
+i:{bd264ed5-e11a-4c8c-8c30-a49beb3cb918}:c:\users\crist\onedrive\área de trabalho\tc\front_tcc-desenvolvimento\security_map\security_map\app.xaml.cs
+++DescriptionPage.xaml
+i:{bd264ed5-e11a-4c8c-8c30-a49beb3cb918}:c:\users\crist\onedrive\área de trabalho\tc\front_tcc-desenvolvimento\security_map\security_map\descriptionpage.xaml
+++MainPage.xaml
+i:{bd264ed5-e11a-4c8c-8c30-a49beb3cb918}:c:\users\crist\onedrive\área de trabalho\tc\front_tcc-desenvolvimento\security_map\security_map\mainpage.xaml
+++MainPage.xaml.cs
+i:{bd264ed5-e11a-4c8c-8c30-a49beb3cb918}:c:\users\crist\onedrive\área de trabalho\tc\front_tcc-desenvolvimento\security_map\security_map\mainpage.xaml.cs
+++Pacotes
+i:{bd264ed5-e11a-4c8c-8c30-a49beb3cb918}:pacotes
+++Contatos
+i:{bd264ed5-e11a-4c8c-8c30-a49beb3cb918}:c:\users\crist\onedrive\área de trabalho\tc\front_tcc-desenvolvimento\security_map\security_map\services\contatos\
+i:{bd264ed5-e11a-4c8c-8c30-a49beb3cb918}:c:\users\crist\onedrive\área de trabalho\tc\front_tcc-desenvolvimento\security_map\security_map\viewmodels\contatos\
+i:{bd264ed5-e11a-4c8c-8c30-a49beb3cb918}:c:\users\crist\onedrive\área de trabalho\tc\front_tcc-desenvolvimento\security_map\security_map\views\contatos\
+++Usuarios
+i:{bd264ed5-e11a-4c8c-8c30-a49beb3cb918}:c:\users\crist\onedrive\área de trabalho\tc\front_tcc-desenvolvimento\security_map\security_map\services\usuarios\
+i:{bd264ed5-e11a-4c8c-8c30-a49beb3cb918}:c:\users\crist\onedrive\área de trabalho\tc\front_tcc-desenvolvimento\security_map\security_map\viewmodels\usuarios\
+i:{bd264ed5-e11a-4c8c-8c30-a49beb3cb918}:c:\users\crist\onedrive\área de trabalho\tc\front_tcc-desenvolvimento\security_map\security_map\views\usuarios\
+++Request.cs
+i:{bd264ed5-e11a-4c8c-8c30-a49beb3cb918}:c:\users\crist\onedrive\área de trabalho\tc\front_tcc-desenvolvimento\security_map\security_map\services\request.cs
+++Registros
+i:{bd264ed5-e11a-4c8c-8c30-a49beb3cb918}:c:\users\crist\onedrive\área de trabalho\tc\front_tcc-desenvolvimento\security_map\security_map\viewmodels\registros\
+i:{bd264ed5-e11a-4c8c-8c30-a49beb3cb918}:c:\users\crist\onedrive\área de trabalho\tc\front_tcc-desenvolvimento\security_map\security_map\views\registros\
+++BaseViewModel.cs
+i:{bd264ed5-e11a-4c8c-8c30-a49beb3cb918}:c:\users\crist\onedrive\área de trabalho\tc\front_tcc-desenvolvimento\security_map\security_map\viewmodels\baseviewmodel.cs
+++Perfis
+i:{bd264ed5-e11a-4c8c-8c30-a49beb3cb918}:c:\users\crist\onedrive\área de trabalho\tc\front_tcc-desenvolvimento\security_map\security_map\views\perfis\
+++FlyoutMenu.xaml
+i:{bd264ed5-e11a-4c8c-8c30-a49beb3cb918}:c:\users\crist\onedrive\área de trabalho\tc\front_tcc-desenvolvimento\security_map\security_map\views\flyoutmenu.xaml
+++AboutView.xaml.cs
+i:{bd264ed5-e11a-4c8c-8c30-a49beb3cb918}:c:\users\crist\onedrive\área de trabalho\tc\front_tcc-desenvolvimento\security_map\security_map\aboutview.xaml.cs
+++DescriptionPage.xaml.cs
+i:{bd264ed5-e11a-4c8c-8c30-a49beb3cb918}:c:\users\crist\onedrive\área de trabalho\tc\front_tcc-desenvolvimento\security_map\security_map\descriptionpage.xaml.cs
+++NETStandard.Library (2.0.3)
+i:{bd264ed5-e11a-4c8c-8c30-a49beb3cb918}:>300
+++Newtonsoft.Json (13.0.1)
+i:{bd264ed5-e11a-4c8c-8c30-a49beb3cb918}:>297
+++Plugin.Permissions (6.0.1)
+i:{bd264ed5-e11a-4c8c-8c30-a49beb3cb918}:>294
+++Xam.Plugin.Geolocator (4.5.0.6)
+i:{bd264ed5-e11a-4c8c-8c30-a49beb3cb918}:>296
+++Xam.Plugins.Messaging (5.2.0)
+i:{bd264ed5-e11a-4c8c-8c30-a49beb3cb918}:>295
+++Xamarin.Essentials (1.7.3)
+i:{bd264ed5-e11a-4c8c-8c30-a49beb3cb918}:>299
+++Xamarin.FFImageLoading.Svg.Forms (2.4.11.982)
+i:{bd264ed5-e11a-4c8c-8c30-a49beb3cb918}:>298
+++Xamarin.Forms (5.0.0.2401)
+i:{bd264ed5-e11a-4c8c-8c30-a49beb3cb918}:>302
+++Xamarin.Forms.GoogleMaps (3.3.0)
+i:{bd264ed5-e11a-4c8c-8c30-a49beb3cb918}:>301
+++ContatoService.cs
+i:{bd264ed5-e11a-4c8c-8c30-a49beb3cb918}:c:\users\crist\onedrive\área de trabalho\tc\front_tcc-desenvolvimento\security_map\security_map\services\contatos\contatoservice.cs
+++RegistroService.cs
+i:{bd264ed5-e11a-4c8c-8c30-a49beb3cb918}:c:\users\crist\onedrive\área de trabalho\tc\front_tcc-desenvolvimento\security_map\security_map\services\usuarios\registroservice.cs
+++UsuarioService.cs
+i:{bd264ed5-e11a-4c8c-8c30-a49beb3cb918}:c:\users\crist\onedrive\área de trabalho\tc\front_tcc-desenvolvimento\security_map\security_map\services\usuarios\usuarioservice.cs
+++ListagemContatoViewModel.cs
+i:{bd264ed5-e11a-4c8c-8c30-a49beb3cb918}:c:\users\crist\onedrive\área de trabalho\tc\front_tcc-desenvolvimento\security_map\security_map\viewmodels\contatos\listagemcontatoviewmodel.cs
+++CadastroRegistroViewModel.cs
+i:{bd264ed5-e11a-4c8c-8c30-a49beb3cb918}:c:\users\crist\onedrive\área de trabalho\tc\front_tcc-desenvolvimento\security_map\security_map\viewmodels\registros\cadastroregistroviewmodel.cs
+++ListagemRegistroViewModel.cs
+i:{bd264ed5-e11a-4c8c-8c30-a49beb3cb918}:c:\users\crist\onedrive\área de trabalho\tc\front_tcc-desenvolvimento\security_map\security_map\viewmodels\registros\listagemregistroviewmodel.cs
+++CadastroUsuarioViewModel.cs
+i:{bd264ed5-e11a-4c8c-8c30-a49beb3cb918}:c:\users\crist\onedrive\área de trabalho\tc\front_tcc-desenvolvimento\security_map\security_map\viewmodels\usuarios\cadastrousuarioviewmodel.cs
+++LocalizacaoViewModel.cs
+i:{bd264ed5-e11a-4c8c-8c30-a49beb3cb918}:c:\users\crist\onedrive\área de trabalho\tc\front_tcc-desenvolvimento\security_map\security_map\viewmodels\usuarios\localizacaoviewmodel.cs
+++UsuarioViewModel.cs
+i:{bd264ed5-e11a-4c8c-8c30-a49beb3cb918}:c:\users\crist\onedrive\área de trabalho\tc\front_tcc-desenvolvimento\security_map\security_map\viewmodels\usuarios\usuarioviewmodel.cs
+++Contato.xaml
+i:{bd264ed5-e11a-4c8c-8c30-a49beb3cb918}:c:\users\crist\onedrive\área de trabalho\tc\front_tcc-desenvolvimento\security_map\security_map\views\contatos\contato.xaml
+++Perfil.xaml
+i:{bd264ed5-e11a-4c8c-8c30-a49beb3cb918}:c:\users\crist\onedrive\área de trabalho\tc\front_tcc-desenvolvimento\security_map\security_map\views\perfis\perfil.xaml
+++Registro.xaml
+i:{bd264ed5-e11a-4c8c-8c30-a49beb3cb918}:c:\users\crist\onedrive\área de trabalho\tc\front_tcc-desenvolvimento\security_map\security_map\views\registros\registro.xaml
+++RegistroOcorrencia.xaml
+i:{bd264ed5-e11a-4c8c-8c30-a49beb3cb918}:c:\users\crist\onedrive\área de trabalho\tc\front_tcc-desenvolvimento\security_map\security_map\views\registros\registroocorrencia.xaml
+++CadastroUserView.xaml
+i:{bd264ed5-e11a-4c8c-8c30-a49beb3cb918}:c:\users\crist\onedrive\área de trabalho\tc\front_tcc-desenvolvimento\security_map\security_map\views\usuarios\cadastrouserview.xaml
+++LoginView.xaml
+i:{bd264ed5-e11a-4c8c-8c30-a49beb3cb918}:c:\users\crist\onedrive\área de trabalho\tc\front_tcc-desenvolvimento\security_map\security_map\views\usuarios\loginview.xaml
+++FlyoutMenu.xaml.cs
+i:{bd264ed5-e11a-4c8c-8c30-a49beb3cb918}:c:\users\crist\onedrive\área de trabalho\tc\front_tcc-desenvolvimento\security_map\security_map\views\flyoutmenu.xaml.cs
+++Contato.xaml.cs
+i:{bd264ed5-e11a-4c8c-8c30-a49beb3cb918}:c:\users\crist\onedrive\área de trabalho\tc\front_tcc-desenvolvimento\security_map\security_map\views\contatos\contato.xaml.cs
+++Perfil.xaml.cs
+i:{bd264ed5-e11a-4c8c-8c30-a49beb3cb918}:c:\users\crist\onedrive\área de trabalho\tc\front_tcc-desenvolvimento\security_map\security_map\views\perfis\perfil.xaml.cs
+++Registro.xaml.cs
+i:{bd264ed5-e11a-4c8c-8c30-a49beb3cb918}:c:\users\crist\onedrive\área de trabalho\tc\front_tcc-desenvolvimento\security_map\security_map\views\registros\registro.xaml.cs
+++RegistroOcorrencia.xaml.cs
+i:{bd264ed5-e11a-4c8c-8c30-a49beb3cb918}:c:\users\crist\onedrive\área de trabalho\tc\front_tcc-desenvolvimento\security_map\security_map\views\registros\registroocorrencia.xaml.cs
+++CadastroUserView.xaml.cs
+i:{bd264ed5-e11a-4c8c-8c30-a49beb3cb918}:c:\users\crist\onedrive\área de trabalho\tc\front_tcc-desenvolvimento\security_map\security_map\views\usuarios\cadastrouserview.xaml.cs
+++LoginView.xaml.cs
+i:{bd264ed5-e11a-4c8c-8c30-a49beb3cb918}:c:\users\crist\onedrive\área de trabalho\tc\front_tcc-desenvolvimento\security_map\security_map\views\usuarios\loginview.xaml.cs
+++NovaPasta
+++MapResources
+++MapTheme (1).json
+++MapTheme.json
+++MapTheme
+++MapStyle.json

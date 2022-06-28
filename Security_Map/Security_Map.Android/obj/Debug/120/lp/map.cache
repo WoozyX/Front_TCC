@@ -1,7 +1,12 @@
+FFImageLoading.Forms.Platform.dll
+FFImageLoading.Platform.dll
+FFImageLoading.Svg.Forms.dll
+FFImageLoading.Svg.Platform.dll
 FormsViewGroup.dll
 Plugin.Geolocator.dll
 Plugin.Messaging.dll
 Plugin.Permissions.dll
+SkiaSharp.dll
 Xamarin.AndroidX.Activity.dll
 Xamarin.AndroidX.Annotation.dll
 Xamarin.AndroidX.Annotation.Experimental.dll

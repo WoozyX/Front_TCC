@@ -1,10 +1,12 @@
 ﻿using Android.App;
 using Android.Content;
+using Android.Content.PM;
 using Android.OS;
 using Android.Runtime;
 using Android.Util;
 using Android.Views;
 using Android.Widget;
+using Security_Map.Droid;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,7 +15,7 @@ using System.Threading.Tasks;
 
 namespace Security_Map.Droid
 {
-    [Activity(Label = "Security Map", Theme="@style/MyTheme.Splash", MainLauncher = true, NoHistory = true)]
+    [Activity(Label = "Security Map", Theme = "@style/MyTheme.Splash", MainLauncher = true, NoHistory = true)]
     public class SplashActivity : Activity
     {
         static readonly string TAG = "X:" + typeof(SplashActivity).Name;

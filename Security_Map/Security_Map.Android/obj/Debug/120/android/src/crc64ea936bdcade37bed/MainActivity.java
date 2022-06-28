@@ -12,6 +12,7 @@ public class MainActivity
 		__md_methods = 
 			"n_onCreate:(Landroid/os/Bundle;)V:GetOnCreate_Landroid_os_Bundle_Handler\n" +
 			"n_onRequestPermissionsResult:(I[Ljava/lang/String;[I)V:GetOnRequestPermissionsResult_IarrayLjava_lang_String_arrayIHandler\n" +
+			"n_onKeyDown:(ILandroid/view/KeyEvent;)Z:GetOnKeyDown_ILandroid_view_KeyEvent_Handler\n" +
 			"";
 		mono.android.Runtime.register ("Security_Map.Droid.MainActivity, Security_Map.Android", MainActivity.class, __md_methods);
 	}
@@ -47,6 +48,14 @@ public class MainActivity
 	}
 
 	private native void n_onRequestPermissionsResult (int p0, java.lang.String[] p1, int[] p2);
+
+
+	public boolean onKeyDown (int p0, android.view.KeyEvent p1)
+	{
+		return n_onKeyDown (p0, p1);
+	}
+
+	private native boolean n_onKeyDown (int p0, android.view.KeyEvent p1);
 
 	private java.util.ArrayList refList;
 	public void monodroidAddReference (java.lang.Object obj)

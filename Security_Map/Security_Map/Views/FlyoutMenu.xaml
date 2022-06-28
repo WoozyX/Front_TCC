@@ -8,12 +8,39 @@
              xmlns:viewsUsuarios = "clr-namespace:Security_Map.Views.Usuarios"
              x:Class="Security_Map.Views.FlyoutMenu"
              FlyoutBackgroundColor="#333333"
-             BackgroundColor="#333333">
+             BackgroundColor="#333333"
+             Shell.TabBarTitleColor="#FD2448"
+             Shell.TabBarUnselectedColor="#f2f2f2">
+
+    <Shell.Resources>
+        <ResourceDictionary>
+            <Style Class="FlyoutItemLayoutStyle" TargetType="Layout" ApplyToDerivedTypes="True">
+                <Setter Property="VisualStateManager.VisualStateGroups">
+                    <VisualStateGroupList>
+                        <VisualStateGroup x:Name="CommonStates">
+                            <VisualState x:Name="Normal">
+                                <VisualState.Setters>
+                                    <Setter Property="BackgroundColor" Value="Transparent" />
+                                    <Setter TargetName="FlyoutItemLabel" Property="Label.TextColor" Value="White" />
+                                </VisualState.Setters>
+                            </VisualState>
+                            <VisualState x:Name="Selected">
+                                <VisualState.Setters>
+                                    <Setter Property="BackgroundColor" Value="#FD2448" />
+                                    <Setter TargetName="FlyoutItemLabel" Property="Label.TextColor" Value="White" />
+                                </VisualState.Setters>
+                            </VisualState>
+                        </VisualStateGroup>
+                    </VisualStateGroupList>
+                </Setter>
+            </Style>
+        </ResourceDictionary>
+    </Shell.Resources>
 
     <Shell.FlyoutHeaderTemplate >
         <DataTemplate>
             <Grid BackgroundColor="#333333">
-                <Image Aspect="AspectFill" HeightRequest="250" Source=""/>
+                <Image Aspect="AspectFill" HeightRequest="250" Source="logoFlyout.png"/>
 
             </Grid>
         </DataTemplate>
@@ -24,22 +51,27 @@
         
         <ShellContent x:Name="PaginaInicial"
                       Title="Mapa"
+                      Icon="mapa.png"
                       ContentTemplate="{DataTemplate viewsRaiz:MainPage}"
                       />
 
         <ShellContent x:Name="PaginaPerfil"
-                      Title="Perfil" 
+                      Title="Perfil"
+                      Icon="perfil.png"
                       ContentTemplate="{DataTemplate viewsPerfis:Perfil}"/>
 
         <ShellContent x:Name="PaginaRegistros"
-                      Title="Registros" 
+                      Title="Registros"
+                      Icon="registros.png"
                       ContentTemplate="{DataTemplate viewsRegistros:Registro}"/>
 
         <ShellContent x:Name="PaginaContatos"
                       Title="Contatos" 
+                      Icon="contato.png"
                       ContentTemplate="{DataTemplate viewsContatos:Contato}"/>
 
-        <Tab Title="Sobre" Route="Info">
+        <Tab Title="Sobre" Route="Info"
+             Icon="sobre.png">
             <ShellContent Title="Sobre" Route="sobre" ContentTemplate="{DataTemplate viewsRaiz:AboutView}"/>
 
            
@@ -47,12 +79,7 @@
         
     </FlyoutItem>
 
-    <ShellContent Title="Sair" ContentTemplate="{DataTemplate viewsUsuarios:LoginView}"/>
-
-    <Shell.FlyoutFooter>
-        <Label x:Name="lblLogin" TextColor="White" FontAttributes="Bold" HorizontalOptions="Center"/>
-    </Shell.FlyoutFooter> 
-
+    <ShellContent Title="Sair" Icon="logout.png" ContentTemplate="{DataTemplate viewsUsuarios:LoginView}"/>
 
 
 </Shell>

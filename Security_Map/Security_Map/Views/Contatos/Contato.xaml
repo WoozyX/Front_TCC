@@ -1,36 +1,40 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Security_Map.Views.Contatos.Contato" BackgroundColor="White"
+             x:Class="Security_Map.Views.Contatos.Contato" BackgroundColor="#333333"
              
              >
              
     <ContentPage.Content>
         <StackLayout>
-            <ListView x:Name="listView" HasUnevenRows="True" ItemsSource="{Binding Contatos}" >
+            <ListView x:Name="listView" HasUnevenRows="True" ItemsSource="{Binding Contatos}" SeparatorColor="#FD2448">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
                             <StackLayout Padding="10">
                                 <Label  Text="{Binding Nome_Contato}" FontSize="18" FontAttributes="Bold"
-                                        TextColor="Black"/>
-                                <Frame>
+                                        TextColor="White"/>
+                                <Frame BackgroundColor="Transparent">
                                     <Label 
                                        Text="{Binding Tel_contato}" 
                                        FontSize="14"
-                                       TextColor="Black"
+                                       TextColor="White"
+                                        
                                        />
                                 </Frame>
-
                                 
+                               
                             </StackLayout>
                         </ViewCell>
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
-
-            
-            
+            <Button Clicked="Button_Clicked"
+                    Text="Ligar"
+                    TextColor="White"
+                    BackgroundColor="#FD2448"
+                    CornerRadius="50"
+                    Margin="50,0,50,50"></Button>
         </StackLayout>
 
         

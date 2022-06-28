@@ -221,7 +221,6 @@ C:\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\
 C:\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\ref\Security_Map.dll
 D:\Front_TCC-desenvolvimento\Security_Map\Security_Map\bin\Debug\netstandard2.0\Security_Map.deps.json
 D:\Front_TCC-desenvolvimento\Security_Map\Security_Map\bin\Debug\netstandard2.0\Security_Map.dll
-D:\Front_TCC-desenvolvimento\Security_Map\Security_Map\bin\Debug\netstandard2.0\ref\Security_Map.dll
 D:\Front_TCC-desenvolvimento\Security_Map\Security_Map\bin\Debug\netstandard2.0\Security_Map.pdb
 D:\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\Security_Map.csproj.AssemblyReference.cache
 D:\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\Security_Map.GeneratedMSBuildEditorConfig.editorconfig
@@ -292,3 +291,157 @@ C:\Users\Aluno\Documents\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj
 C:\Users\Aluno\Documents\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\refint\Security_Map.dll
 C:\Users\Aluno\Documents\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\Security_Map.pdb
 C:\Users\Aluno\Documents\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\ref\Security_Map.dll
+C:\Users\Aluno\Desktop\Front_TCC-desenvolvimento\Security_Map\Security_Map\bin\Debug\netstandard2.0\Security_Map.deps.json
+C:\Users\Aluno\Desktop\Front_TCC-desenvolvimento\Security_Map\Security_Map\bin\Debug\netstandard2.0\Security_Map.dll
+C:\Users\Aluno\Desktop\Front_TCC-desenvolvimento\Security_Map\Security_Map\bin\Debug\netstandard2.0\Security_Map.pdb
+C:\Users\Aluno\Desktop\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\Security_Map.csproj.AssemblyReference.cache
+C:\Users\Aluno\Desktop\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\Security_Map.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aluno\Desktop\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\AboutView.xaml.g.cs
+C:\Users\Aluno\Desktop\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Aluno\Desktop\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\DescriptionPage.xaml.g.cs
+C:\Users\Aluno\Desktop\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Aluno\Desktop\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\Views\Contatos\Contato.xaml.g.cs
+C:\Users\Aluno\Desktop\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\Views\FlyoutMenu.xaml.g.cs
+C:\Users\Aluno\Desktop\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\Views\Perfis\Perfil.xaml.g.cs
+C:\Users\Aluno\Desktop\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\Views\Registros\Registro.xaml.g.cs
+C:\Users\Aluno\Desktop\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\Views\Registros\RegistroOcorrencia.xaml.g.cs
+C:\Users\Aluno\Desktop\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\Views\Usuarios\CadastroUserView.xaml.g.cs
+C:\Users\Aluno\Desktop\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\Views\Usuarios\LoginView.xaml.g.cs
+C:\Users\Aluno\Desktop\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\Security_Map.AssemblyInfoInputs.cache
+C:\Users\Aluno\Desktop\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\Security_Map.AssemblyInfo.cs
+C:\Users\Aluno\Desktop\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\Security_Map.csproj.CoreCompileInputs.cache
+C:\Users\Aluno\Desktop\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Aluno\Desktop\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\Security_Map.dll
+C:\Users\Aluno\Desktop\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\refint\Security_Map.dll
+C:\Users\Aluno\Desktop\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\Security_Map.pdb
+C:\Users\Aluno\Desktop\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\ref\Security_Map.dll
+C:\Users\naitk\Downloads\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\Views\Registros\RegistroOcorrencia.xaml.g.cs
+C:\Users\naitk\Downloads\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\Views\Usuarios\CadastroUserView.xaml.g.cs
+D:\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\refint\Security_Map.dll
+C:\Users\Crist\OneDrive\Área de Trabalho\Tc\Front_TCC-desenvolvimento\Security_Map\Security_Map\bin\Debug\netstandard2.0\Security_Map.deps.json
+C:\Users\Crist\OneDrive\Área de Trabalho\Tc\Front_TCC-desenvolvimento\Security_Map\Security_Map\bin\Debug\netstandard2.0\Security_Map.dll
+C:\Users\Crist\OneDrive\Área de Trabalho\Tc\Front_TCC-desenvolvimento\Security_Map\Security_Map\bin\Debug\netstandard2.0\Security_Map.pdb
+C:\Users\Crist\OneDrive\Área de Trabalho\Tc\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\Security_Map.csproj.AssemblyReference.cache
+C:\Users\Crist\OneDrive\Área de Trabalho\Tc\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\Security_Map.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Crist\OneDrive\Área de Trabalho\Tc\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\AboutView.xaml.g.cs
+C:\Users\Crist\OneDrive\Área de Trabalho\Tc\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Crist\OneDrive\Área de Trabalho\Tc\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\DescriptionPage.xaml.g.cs
+C:\Users\Crist\OneDrive\Área de Trabalho\Tc\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Crist\OneDrive\Área de Trabalho\Tc\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\Views\Contatos\Contato.xaml.g.cs
+C:\Users\Crist\OneDrive\Área de Trabalho\Tc\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\Views\FlyoutMenu.xaml.g.cs
+C:\Users\Crist\OneDrive\Área de Trabalho\Tc\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\Views\Perfis\Perfil.xaml.g.cs
+C:\Users\Crist\OneDrive\Área de Trabalho\Tc\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\Views\Registros\Registro.xaml.g.cs
+C:\Users\Crist\OneDrive\Área de Trabalho\Tc\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\Views\Registros\RegistroOcorrencia.xaml.g.cs
+C:\Users\Crist\OneDrive\Área de Trabalho\Tc\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\Views\Usuarios\CadastroUserView.xaml.g.cs
+C:\Users\Crist\OneDrive\Área de Trabalho\Tc\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\Views\Usuarios\LoginView.xaml.g.cs
+C:\Users\Crist\OneDrive\Área de Trabalho\Tc\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\Security_Map.AssemblyInfoInputs.cache
+C:\Users\Crist\OneDrive\Área de Trabalho\Tc\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\Security_Map.AssemblyInfo.cs
+C:\Users\Crist\OneDrive\Área de Trabalho\Tc\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\Security_Map.csproj.CoreCompileInputs.cache
+C:\Users\Crist\OneDrive\Área de Trabalho\Tc\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Crist\OneDrive\Área de Trabalho\Tc\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\Security_Map.dll
+C:\Users\Crist\OneDrive\Área de Trabalho\Tc\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\refint\Security_Map.dll
+C:\Users\Crist\OneDrive\Área de Trabalho\Tc\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\Security_Map.pdb
+C:\Users\Crist\OneDrive\Área de Trabalho\Tc\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\ref\Security_Map.dll
+C:\Users\Crist\OneDrive\Área de Trabalho\Tc\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\Page2.xaml.g.cs
+F:\Projetos Tcc\Front_TCC-desenvolvimento\Security_Map\Security_Map\bin\Debug\netstandard2.0\Security_Map.deps.json
+F:\Projetos Tcc\Front_TCC-desenvolvimento\Security_Map\Security_Map\bin\Debug\netstandard2.0\Security_Map.dll
+F:\Projetos Tcc\Front_TCC-desenvolvimento\Security_Map\Security_Map\bin\Debug\netstandard2.0\Security_Map.pdb
+F:\Projetos Tcc\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\Security_Map.csproj.AssemblyReference.cache
+F:\Projetos Tcc\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\Security_Map.GeneratedMSBuildEditorConfig.editorconfig
+F:\Projetos Tcc\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\AboutView.xaml.g.cs
+F:\Projetos Tcc\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\App.xaml.g.cs
+F:\Projetos Tcc\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\DescriptionPage.xaml.g.cs
+F:\Projetos Tcc\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+F:\Projetos Tcc\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\Page2.xaml.g.cs
+F:\Projetos Tcc\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\Views\Contatos\Contato.xaml.g.cs
+F:\Projetos Tcc\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\Views\FlyoutMenu.xaml.g.cs
+F:\Projetos Tcc\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\Views\Perfis\Perfil.xaml.g.cs
+F:\Projetos Tcc\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\Views\Registros\Registro.xaml.g.cs
+F:\Projetos Tcc\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\Views\Registros\RegistroOcorrencia.xaml.g.cs
+F:\Projetos Tcc\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\Views\Usuarios\CadastroUserView.xaml.g.cs
+F:\Projetos Tcc\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\Views\Usuarios\LoginView.xaml.g.cs
+F:\Projetos Tcc\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\Security_Map.AssemblyInfoInputs.cache
+F:\Projetos Tcc\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\Security_Map.AssemblyInfo.cs
+F:\Projetos Tcc\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\Security_Map.csproj.CoreCompileInputs.cache
+F:\Projetos Tcc\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\XamlC.stamp
+F:\Projetos Tcc\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\Security_Map.dll
+F:\Projetos Tcc\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\refint\Security_Map.dll
+F:\Projetos Tcc\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\Security_Map.pdb
+F:\Projetos Tcc\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\ref\Security_Map.dll
+D:\Projetos Tcc\Front_TCC-desenvolvimento\Security_Map\Security_Map\bin\Debug\netstandard2.0\Security_Map.deps.json
+D:\Projetos Tcc\Front_TCC-desenvolvimento\Security_Map\Security_Map\bin\Debug\netstandard2.0\Security_Map.dll
+D:\Projetos Tcc\Front_TCC-desenvolvimento\Security_Map\Security_Map\bin\Debug\netstandard2.0\Security_Map.pdb
+D:\Projetos Tcc\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\Security_Map.csproj.AssemblyReference.cache
+D:\Projetos Tcc\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\Security_Map.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projetos Tcc\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\AboutView.xaml.g.cs
+D:\Projetos Tcc\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\Projetos Tcc\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\DescriptionPage.xaml.g.cs
+D:\Projetos Tcc\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\Projetos Tcc\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\Page2.xaml.g.cs
+D:\Projetos Tcc\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\Views\Contatos\Contato.xaml.g.cs
+D:\Projetos Tcc\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\Views\FlyoutMenu.xaml.g.cs
+D:\Projetos Tcc\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\Views\Perfis\Perfil.xaml.g.cs
+D:\Projetos Tcc\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\Views\Registros\Registro.xaml.g.cs
+D:\Projetos Tcc\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\Views\Registros\RegistroOcorrencia.xaml.g.cs
+D:\Projetos Tcc\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\Views\Usuarios\CadastroUserView.xaml.g.cs
+D:\Projetos Tcc\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\Views\Usuarios\LoginView.xaml.g.cs
+D:\Projetos Tcc\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\Security_Map.AssemblyInfoInputs.cache
+D:\Projetos Tcc\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\Security_Map.AssemblyInfo.cs
+D:\Projetos Tcc\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\Security_Map.csproj.CoreCompileInputs.cache
+D:\Projetos Tcc\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\XamlC.stamp
+D:\Projetos Tcc\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\Security_Map.dll
+D:\Projetos Tcc\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\refint\Security_Map.dll
+D:\Projetos Tcc\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\Security_Map.pdb
+D:\Projetos Tcc\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\ref\Security_Map.dll
+C:\Front_TCC-desenvolvimento\Front_TCC-desenvolvimento\Security_Map\Security_Map\bin\Debug\netstandard2.0\Security_Map.deps.json
+C:\Front_TCC-desenvolvimento\Front_TCC-desenvolvimento\Security_Map\Security_Map\bin\Debug\netstandard2.0\Security_Map.dll
+C:\Front_TCC-desenvolvimento\Front_TCC-desenvolvimento\Security_Map\Security_Map\bin\Debug\netstandard2.0\Security_Map.pdb
+C:\Front_TCC-desenvolvimento\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\Security_Map.csproj.AssemblyReference.cache
+C:\Front_TCC-desenvolvimento\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\Security_Map.GeneratedMSBuildEditorConfig.editorconfig
+C:\Front_TCC-desenvolvimento\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\AboutView.xaml.g.cs
+C:\Front_TCC-desenvolvimento\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Front_TCC-desenvolvimento\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\DescriptionPage.xaml.g.cs
+C:\Front_TCC-desenvolvimento\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Front_TCC-desenvolvimento\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\Page2.xaml.g.cs
+C:\Front_TCC-desenvolvimento\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\Views\Contatos\Contato.xaml.g.cs
+C:\Front_TCC-desenvolvimento\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\Views\FlyoutMenu.xaml.g.cs
+C:\Front_TCC-desenvolvimento\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\Views\Perfis\Perfil.xaml.g.cs
+C:\Front_TCC-desenvolvimento\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\Views\Registros\Registro.xaml.g.cs
+C:\Front_TCC-desenvolvimento\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\Views\Registros\RegistroOcorrencia.xaml.g.cs
+C:\Front_TCC-desenvolvimento\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\Views\Usuarios\CadastroUserView.xaml.g.cs
+C:\Front_TCC-desenvolvimento\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\Views\Usuarios\LoginView.xaml.g.cs
+C:\Front_TCC-desenvolvimento\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\Security_Map.AssemblyInfoInputs.cache
+C:\Front_TCC-desenvolvimento\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\Security_Map.AssemblyInfo.cs
+C:\Front_TCC-desenvolvimento\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\Security_Map.csproj.CoreCompileInputs.cache
+C:\Front_TCC-desenvolvimento\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Front_TCC-desenvolvimento\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\Security_Map.dll
+C:\Front_TCC-desenvolvimento\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\refint\Security_Map.dll
+C:\Front_TCC-desenvolvimento\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\Security_Map.pdb
+C:\Front_TCC-desenvolvimento\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\ref\Security_Map.dll
+F:\Front_TCC-desenvolvimento\Security_Map\Security_Map\bin\Debug\netstandard2.0\Security_Map.deps.json
+F:\Front_TCC-desenvolvimento\Security_Map\Security_Map\bin\Debug\netstandard2.0\Security_Map.dll
+F:\Front_TCC-desenvolvimento\Security_Map\Security_Map\bin\Debug\netstandard2.0\Security_Map.pdb
+F:\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\Security_Map.csproj.AssemblyReference.cache
+F:\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\Security_Map.GeneratedMSBuildEditorConfig.editorconfig
+F:\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\AboutView.xaml.g.cs
+F:\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\App.xaml.g.cs
+F:\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\DescriptionPage.xaml.g.cs
+F:\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+F:\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\Page2.xaml.g.cs
+F:\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\Views\Contatos\Contato.xaml.g.cs
+F:\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\Views\FlyoutMenu.xaml.g.cs
+F:\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\Views\Perfis\Perfil.xaml.g.cs
+F:\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\Views\Registros\Registro.xaml.g.cs
+F:\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\Views\Registros\RegistroOcorrencia.xaml.g.cs
+F:\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\Views\Usuarios\CadastroUserView.xaml.g.cs
+F:\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\Views\Usuarios\LoginView.xaml.g.cs
+F:\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\Security_Map.AssemblyInfoInputs.cache
+F:\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\Security_Map.AssemblyInfo.cs
+F:\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\Security_Map.csproj.CoreCompileInputs.cache
+F:\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\XamlC.stamp
+F:\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\Security_Map.dll
+F:\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\refint\Security_Map.dll
+F:\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\Security_Map.pdb
+F:\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\ref\Security_Map.dll
+D:\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\Page2.xaml.g.cs
+C:\Front_TCC-desenvolvimento\Security_Map\Security_Map\obj\Debug\netstandard2.0\Page2.xaml.g.cs

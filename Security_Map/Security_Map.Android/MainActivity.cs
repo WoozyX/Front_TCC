@@ -5,10 +5,13 @@ using Android.Runtime;
 using Android.OS;
 using Plugin.Permissions;
 using Plugin.Messaging;
+using Xamarin.Forms.GoogleMaps.Android;
+using Android.Views;
+using Xamarin.Forms;
 
 namespace Security_Map.Droid
 {
-    [Activity(Label = "Security Map", Icon = "@mipmap/icon2", Theme = "@style/MainTheme", MainLauncher = false, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation | ConfigChanges.UiMode | ConfigChanges.ScreenLayout | ConfigChanges.SmallestScreenSize )]
+    [Activity(Label = "Security Map", Icon = "@mipmap/iconeS", Theme = "@style/MainTheme", MainLauncher = false, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation | ConfigChanges.UiMode | ConfigChanges.ScreenLayout | ConfigChanges.SmallestScreenSize )]
     public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity
     {
         protected override void OnCreate(Bundle savedInstanceState)
@@ -23,6 +26,7 @@ namespace Security_Map.Droid
             Xamarin.FormsGoogleMaps.Init(this, savedInstanceState);
 
             LoadApplication(new App());
+
         }
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)
         {
@@ -32,5 +36,11 @@ namespace Security_Map.Droid
 
             PermissionsImplementation.Current.OnRequestPermissionsResult(requestCode, permissions, grantResults);
         }
+        public override bool OnKeyDown([GeneratedEnum] Keycode keyCode, KeyEvent e)
+        {
+            MessagingCenter.Send(Xamarin.Forms.Application.Current, "GlobalKeyUp", $"{keyCode}");
+            return base.OnKeyDown(keyCode, e);
+        }
+
     }
 }

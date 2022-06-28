@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:registros="clr-namespace:Security_Map.ViewModels.Registros" x:DataType="registros:CadastroRegistroViewModel"
              x:Class="Security_Map.Views.Registros.RegistroOcorrencia"
              BackgroundColor="#333333"
-             NavigationPage.HasBackButton="True"
+             Shell.PresentationMode="ModalAnimated"
              x:Name="pageOcorrencia">
 
 
@@ -36,14 +36,31 @@
                                 HeightRequest="100"/>
                 
                 
-                <Label Text="{Binding MtRegistro}"             
+                <Label Text="Momento do Ocorrido"             
                                TextColor="#FD2448"
                                FontAttributes="Bold"
                                FontSize="Subtitle"
                                HorizontalTextAlignment="Start"/>
                 <DatePicker x:Name="dtpMtOcorrencia"
-                            
+                            Format="dd/MM/yyyy"
+                            Date="{Binding MtRegistro}"
                             />
+                <Label Text="Tipo da Ocorrencia"             
+                               TextColor="#FD2448"
+                               FontAttributes="Bold"
+                               FontSize="Subtitle"
+                               HorizontalTextAlignment="Start"/>
+                <Picker 
+                    Title="Tipo da Ocorrencia"
+                    TitleColor="White"
+                    SelectedIndex="{Binding TiposOcorrenciasId}">
+                    <Picker.Items>
+                        <x:String >Furto</x:String>
+                        <x:String>Agressão</x:String>
+                        <x:String>Assédio</x:String>
+                        <x:String>Roubo</x:String>
+                    </Picker.Items>
+                </Picker>
             </StackLayout>
             <StackLayout Grid.Row="2">
                 <Button Text="Registrar"
@@ -54,7 +71,19 @@
                         Margin="25"
                         Command="{Binding SalvarCommand}"
                         />
+
+                <Button Text="Cancelar"
+                        BackgroundColor="#FD2448"
+                        CornerRadius="25"
+                        HorizontalOptions="FillAndExpand"
+                        VerticalOptions="EndAndExpand"
+                        Margin="25,25"
+                        Clicked="Button_Clicked"
+                        
+                        
+                        />
             </StackLayout>
+            
         </Grid>
     </ContentPage.Content>
 </ContentPage>

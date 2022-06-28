@@ -21,10 +21,10 @@
     </intent>
   </queries>
   <uses-feature android:glEsVersion="0x00020000" android:required="true" />
-  <application android:name="android.app.Application" android:allowBackup="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:debuggable="true" android:extractNativeLibs="true" android:icon="@mipmap/icon2" android:label="Security_Map.Android" android:theme="@style/MainTheme" android:usesCleartextTraffic="true">
+  <application android:name="android.app.Application" android:allowBackup="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:debuggable="true" android:extractNativeLibs="true" android:icon="@mipmap/icones" android:label="Security_Map.Android" android:theme="@style/MainTheme" android:usesCleartextTraffic="true">
     <uses-library android:name="org.apache.http.legacy" android:required="false" />
     <meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyBLYEnbgklO2LLpMHFnUSOAzCRuFLt2Yd4" />
-    <activity android:name="crc64ea936bdcade37bed.MainActivity" android:configChanges="orientation|smallestScreenSize|screenLayout|screenSize|uiMode" android:icon="@mipmap/icon2" android:label="Security Map" android:theme="@style/MainTheme" />
+    <activity android:name="crc64ea936bdcade37bed.MainActivity" android:configChanges="orientation|smallestScreenSize|screenLayout|screenSize|uiMode" android:icon="@mipmap/icones" android:label="Security Map" android:theme="@style/MainTheme" />
     <activity android:name="crc64ea936bdcade37bed.SplashActivity" android:exported="true" android:label="Security Map" android:noHistory="true" android:theme="@style/MyTheme.Splash">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />

@@ -22,10 +22,8 @@ namespace Security_Map.ViewModels.Usuarios
 
         public UsuarioViewModel()
         {
-
-            string token = Application.Current.Properties["UsuarioToken"].ToString();
             this.Usuario = new Usuario();
-            uService = new UsuarioService(token);
+            uService = new UsuarioService();
             RegistrarCommands();
         }
 

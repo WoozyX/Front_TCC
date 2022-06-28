@@ -26,8 +26,6 @@ namespace Security_Map.ViewModels.Usuarios
 
             string token = Application.Current.Properties["UsuarioToken"].ToString();
             rService = new RegistroService(token);
-
-
         }
 
 
@@ -36,7 +34,7 @@ namespace Security_Map.ViewModels.Usuarios
             try
             {
                 var status = await CrossPermissions.Current.CheckPermissionStatusAsync<LocationPermission>();
-
+                var location = await Geolocation.GetLastKnownLocationAsync();
                 if (status != PermissionStatus.Granted)
                 {
                     if (await CrossPermissions.Current.ShouldShowRequestPermissionRationaleAsync(Permission.Location))
@@ -49,6 +47,8 @@ namespace Security_Map.ViewModels.Usuarios
                 {
                     MeuMapa.MyLocationEnabled = true;
                     MeuMapa.UiSettings.MyLocationButtonEnabled = true;
+                    Position position = new Position(location.Latitude, location.Longitude);
+                    MeuMapa.MoveToRegion(MapSpan.FromCenterAndRadius(position, Distance.FromMeters(1000)));
                 }
                 else if (status != PermissionStatus.Unknown)
                     throw new Exception("Localização negada");
@@ -56,21 +56,47 @@ namespace Security_Map.ViewModels.Usuarios
 
                 
 
-                Pin pinCentro = new Pin()
-                {
-                    Type = PinType.SavedPin,
-                    Label = "São Paulo",
-                    Position = new Position(-23.5504685, -46.6306803),
-
-                };
-                MeuMapa.Pins.Add(pinCentro);
-                MeuMapa.MoveToRegion(MapSpan.FromCenterAndRadius(pinCentro.Position, Distance.FromMeters(1000)));
+                
 
             }
             catch (Exception ex)
             {
 
                 await Application.Current.MainPage.DisplayAlert("Erro", ex.Message, "Ok");
+            }
+        }
+
+        public async void LocalizarOcorrencia(double lat, double lon)
+        {
+            try
+            {
+                var status = await CrossPermissions.Current
+                    .CheckPermissionStatusAsync<LocationPermission>();
+
+                if (status != PermissionStatus.Granted)
+                {
+                    if (await CrossPermissions.Current.ShouldShowRequestPermissionRationaleAsync(Permission.Location))
+                    {
+                        await Application.Current.MainPage.DisplayAlert("Atenção", "É necessário ativar a localização", "OK");
+
+                    }
+
+                    status = await CrossPermissions.Current.RequestPermissionAsync<LocationPermission>();
+
+
+                }
+                if (status == PermissionStatus.Granted)
+                {
+                    Position position = new Position(lat, lon);
+                    MeuMapa.MoveToRegion(MapSpan.FromCenterAndRadius(position, Distance.FromMeters(1000)));
+                }
+                else if (status != PermissionStatus.Unknown)
+                    throw new Exception("Localização negada");
+
+            }
+            catch (Exception ex)
+            {
+                await Application.Current.MainPage.DisplayAlert("Erro", ex.Message, "OK");
             }
         }
 
@@ -144,6 +170,16 @@ namespace Security_Map.ViewModels.Usuarios
                         double  lat = double.Parse(r.Latitude);
                         double lon = double.Parse(r.Longitude);
 
+                        Location posicaoPin = new Location(lat, lon);
+                        var localizacaoAprox = await Geocoding.GetPlacemarksAsync(posicaoPin);
+                        var localizacaoAproxInfo = localizacaoAprox?.FirstOrDefault();
+                        r.RuaRegistro = localizacaoAproxInfo.Thoroughfare;
+
+                        Registro registro = new Registro()
+                        {
+                            RuaRegistro = r.RuaRegistro
+                        };
+
                         var circle1 = new Circle();
                         circle1.StrokeWidth = 1f;
                         circle1.StrokeColor = Xamarin.Forms.Color.Transparent;
@@ -204,19 +240,22 @@ namespace Security_Map.ViewModels.Usuarios
                     //localizacaoAproxInfo.Locality = cidade ou estado
                     //localizacaoAproxInfo.PostalCode = CEP
                     //localizacaoAproxInfo.CountryName = nome da cidade
-                    //localizacaoAproxInfo.CountryCode = codigo da cidade ex: SP
-
+                    //localizacaoAproxInfo.CountryCode = codigo da cidade ex: 
                     Pin pinOcorrencia = new Pin()
                     {
                         Type = PinType.Place,
                         Label = "Ocorrência",
                         Address = localizacaoAproxInfo.Thoroughfare,
-                        Position = parametros.Point,
-                        Tag = "IdEtec",
+                        Position = parametros.Point
                     };
                     MeuMapa.MoveToRegion(MapSpan.FromCenterAndRadius(pinOcorrencia.Position, Distance.FromMeters(100)));
                     MeuMapa.Pins.Add(pinOcorrencia);
                     botao.IsVisible = true;
+
+                    Registro registro = new Registro()
+                    {
+                        RuaRegistro = localizacaoAproxInfo.Thoroughfare.ToString()
+                    };
                 }
                 else if (status != PermissionStatus.Unknown)
                     throw new Exception("Localização negada");

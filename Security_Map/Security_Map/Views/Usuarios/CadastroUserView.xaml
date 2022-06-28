@@ -6,19 +6,50 @@
              >
     <ContentPage.Content>
         <ScrollView>
-            <StackLayout Spacing="3" Padding="15">
-                <Label Text="Nome de Usuário:" FontSize="Medium" />
-                <Entry Text="{Binding Username}" FontSize="Medium" />
+            <StackLayout Spacing="3" Padding="5">
+                <Image Source="logoFlyout.png" WidthRequest="200" HeightRequest="200"
+               HorizontalOptions="Center">
 
-                <Label Text="Senha:" FontSize="Medium" />
-                <Entry Text="{Binding PasswordString}" FontSize="Medium" />
+                </Image>
+
+                <Label Text="Nome de Usuário:" FontSize="Medium" TextColor="#FD2448"/>
+                <Entry Text="{Binding Username}" FontSize="Medium" Placeholder="Seu usuário" />
+
+                <Label Text="Senha:" FontSize="Medium" TextColor="#FD2448"/>
+                <Entry Text="{Binding PasswordString}" FontSize="Medium" IsPassword="True" Placeholder="Digite sua senha"/>
+                
+
+
+                <Label Text="E-mail:" FontSize="Medium" TextColor="#FD2448"/>
+                <Entry Text="{Binding Email_Cliente}" FontSize="Medium" Placeholder="Digite seu E-mail" />
+
+                <Label Text="Sexo" FontSize="Medium" TextColor="#FD2448"/>
+                <Picker SelectedIndex="{Binding Sexo_Cliente}" Title="Defina o sexo">
+                    
+                    <Picker.Items>
+                        <x:String>Masculino</x:String>
+                        <x:String>Feminino</x:String>
+                    </Picker.Items>
+                </Picker>
+
+                <Label Text="Telefone:" FontSize="Medium" TextColor="#FD2448"/>
+                <Entry Text="{Binding Telefone_Cliente}" FontSize="Medium"  Keyboard="Numeric" Placeholder="(99)99999-9999"/>
+
+                <Label Text="Data de Nascimento:" FontSize="Medium" TextColor="#FD2448"/>
+                <DatePicker Format="dd/MM/yyyy"
+                            
+                            Date="{Binding Nascimento_Cliente}"
+                            />
+
 
                 <StackLayout Orientation="Horizontal">
                     <Button Text="Salvar" Command="{Binding SalvarCommand}"
+                            TextColor="White"
+                            BackgroundColor="#FD2448"
+                            CornerRadius="50"
                             HorizontalOptions="FillAndExpand"></Button>
 
-                    <Button Text="Cancelar" Command="{Binding CancelarCommand}"
-                            HorizontalOptions="FillAndExpand"></Button>
+                   
 
 
                 </StackLayout>

@@ -109,3 +109,9 @@ androidx.asynclayoutinflater.asynclayoutinflater.aar
 androidx.legacy.legacy-support-core-ui.aar
 androidx.legacy.legacy-support-v4.aar
 androidx.browser.browser.aar
+FFImageLoading.Forms.Platform.dll
+FFImageLoading.Platform.dll
+FFImageLoading.Svg.Forms.dll
+FFImageLoading.Svg.Platform.dll
+Plugin.Messaging.dll
+SkiaSharp.dll
